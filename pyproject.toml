@@ -19,3 +19,15 @@ dependencies = [
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["phytospec*"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tool.pixi.pypi-dependencies]
+phytospec = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+jupyter = ">=1.1.1,<2"
