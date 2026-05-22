@@ -6,9 +6,12 @@ What this notebook does:
 - Summarizes results, diagnostics, and provides a ready-to-report management conclusion
 
 How to use:
-1. Connect the [`WISP SB_2024 csv data`](data\raw\SB_2024\WISP_wp2cs3_sodra_bergundasjon_all_months_2024_930_QA_data.csv) file (in cell 2 of notebook)
-2. Run all cells in order
-3. Review the summary and diagnostics at the end for key findings and action points
+1. Download the real *`WISP_wp2cs3_sodra_bergundasjon_all_months_2024_0930.csv`* dataset from sharepoint 
+2. Replace the existing dummy file at the location `data\raw\SB_2024\WISP_wp2cs3_sodra_bergundasjon_all_months_2024_930_QA_data.csv`
+3. Rename the downloaded file to make sure that the file name ends with `<>_QA_data.csv` to maintain compatibility with the code
+4. Set/update its path (in cell 2 of [notebooks\wp2_cs3\01_lake_sb_wisp_tests.ipynb](01_lake_sb_wisp_tests.ipynb))
+5. Run all cells in order
+6. Review the summary and diagnostics at the end for key findings and action points
 
 About the data:
 - Source: WISP sensor, Södra Bergundasjon, 2024 campaign
