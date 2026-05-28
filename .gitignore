@@ -35,3 +35,6 @@ Thumbs.db
 # Logs
 *.log
 debug.log
+# pixi environments
+.pixi/*
+!.pixi/config.toml
